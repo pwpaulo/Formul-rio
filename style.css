@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/21/12/52/restaurant-1343327_1280.jpg");
+}
+
+.form-fut-body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.pixabay.com/photo/2022/06/30/03/23/soccer-7292853_1280.jpg");
+}
+
+.form-control{
+    height: 30px;
+    width: 300px;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    background-color:  white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.div-principal{
+    display: flex;
+    flex-direction: column;
+    background-color:  white;
+    padding: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+label{
+    margin-top: 10px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+      <div class = "form-div">
+        <h1>Emprego | Surface</h1><br>
+        <label for="form-text" class="form-label">Nome Completo:</label>
+        <input type="name" name = "nome" class="form-control" id="exampleInputEmail1" placeholder= "Nome Completo" >
+        <label for="form-text" class="form-label">Idade:</label>
+        <input type="idade" name = "nome" class="form-control" id="exampleInputEmail1" placeholder= "Idade" >
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Cargo</label>
+            <select id="inputState" class="form-select">
+              <option selected name = "cargo">Porteiro</option>
+              <option>Atendente</option>
+              <option>Garçom</option>
+              <option>Cozinheiro</option>
+              <option>Cozinheiro Chef</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Horário Livre</label>
+            <select id="inputState" class="form-select">
+              <option selected name = "horário">Manhã - Tarde</option>
+              <option>Tarde - Noite</option>
+              <option>Noite - Madrugada</option>
+              <option>Madrugada - Manhã</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Escolaridade</label>
+            <select id="inputState" class="form-select">
+              <option selected name = "escolaridade">Ensino Fundamental Completo</option>
+              <option>Ensino Médio Completo</option>
+              <option>Ensino Superior Completo</option>
+            </select>
+          </div>
+          <label for="form-text" class="form-label">Ensino Superior:</label>
+          <input type="name" name = "ensino-superior" class="form-control" id="exampleInputEmail1" placeholder= "Ensino Superior" aria-describedby="emailHelp">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Insira email.</label>
+                  <input type="email" name= "email" class="form-control" id="exampleInputEmail1" placeholder= "nome@exemplo.com"aria-describedby="emailHelp">
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Crie uma senha.</label>
+                    <input type="password" name = "senha" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Confirme a senha.</label>
+                    <input type="password" name = "senha-confirmação" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Concordo com os termos de serviço.</label>
+                  </div>
+                  <a class="icon-link" href="#">
+                    <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+                    Termos de Serviço
+                  </a>
+                  <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+          </div>
+      </div>
+    </form>
+</body>
+</html>
